@@ -4,6 +4,26 @@
 
 A powerful bash script that uploads files to GitHub repositories using the GitHub API. Fast, simple, and works on any system with `curl` and `jq`.
 
+
+## ✅ Included Tool
+
+This repository now includes a clean, readable Bash CLI named `github-upload`. It uploads, updates, lists, and deletes repository files through the GitHub REST API using `curl`, `jq`, and `base64`.
+
+Quick start:
+
+```bash
+chmod +x github-upload
+./github-upload -A
+./github-upload -r owner/repo --create file.txt
+```
+
+Install locally:
+
+```bash
+./install.sh
+github-upload --help
+```
+
 ## ✨ Features
 
 - 🚀 **Direct API Upload** - No git clone, no git commands needed
